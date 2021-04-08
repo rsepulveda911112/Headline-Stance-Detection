@@ -1,0 +1,4 @@
+# from simpletransformers.classification.classification_model import ClassificationModel
+from model.OutClassificationModel import OutClassificationModel
+
+TransformerModel = OutClassificationModel
