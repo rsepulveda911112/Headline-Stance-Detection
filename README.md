@@ -22,6 +22,14 @@ You need to have at least version 21.0.1 of pip installed. Next you may install 
 pip install --upgrade pip
 pip install -r requirements.txt
 ```
+### Resource
+Download the FNC-dataset and the generatic summaries from this link:
+```bash
+wget -O data.zip "https://drive.google.com/uc?export=download&id=1b_8ZAlwOPpMsBPcg-vQE2q-4PR0F4Zuk"
+unzip data.zip
+rm data.zip
+```
+
 
 ### Description of the parameters
 These parameters allow configuring the system to train or predict.
